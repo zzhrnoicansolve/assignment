@@ -1,0 +1,135 @@
+body{
+    background-image: url(../img/dotted-background.png);
+    color: #630a10;
+    line-height: 1.5em;
+    font-family: 宋体;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+li{
+    list-style: none;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.top .column{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    height: 50px;
+    background: #630a10;
+    border-radius: 20px;
+}
+
+.top .column .list li{
+    float: left;
+    overflow: hidden;
+    height: 50px;
+    line-height: 30px;
+    margin-right: 10px;
+}
+.top .column .list a{
+    padding: 3px;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.top .column .list a:hover{
+    background-color: #993138;
+}
+.top .column .list a:active{
+    background: #ff5c67;
+}
+
+.index{
+    margin: 50px auto;
+    width: 82%;
+    background-color: rgb(255,248,226);
+}
+.index .article{
+    text-indent:2em;
+    text-align: left;
+    border: 5px solid #911f27;
+}
+.index .wuxiimage{
+    width: 25%;
+    height: 45%;
+    float: right;
+    border: 5px dotted #911f27;
+}
+
+.block{
+    float: left;
+    width:50%;
+    box-sizing: border-box; 
+}
+
+table{
+    margin: 0 auto;
+}
+.table h1{
+    margin: 0 30%;
+    font-size: 20px;
+    display: block;
+    background-color: rgb(255, 241, 220);
+}
+.ps{
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    width: 50vw;
+    font-size: 12px;
+    font-weight: 100;
+    color: silver;
+}
+
+button{
+    background-color: #630a10;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 20px;
+    padding: 3px 5px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: #993138;
+}
+button:active{
+    background-color: #ff5c67;
+}
+#back{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.sidebar{
+    background-color: rgb(255, 240, 189);
+    border: 5px #911f27 solid;
+    border-radius: 20px;
+    position: fixed;
+    left: 0px;
+    top: 30%;
+}
+.sidebar a{
+    background-color: rgb(255, 222, 115);
+    text-decoration: none;
+    color: #94272e;
+    display: block;
+}
+.sidebar a:hover{
+    color:#ff5c67;
+}
+.sidebar a:active{
+    background: rgb(252, 231, 161);
+}
